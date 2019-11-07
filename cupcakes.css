@@ -1,0 +1,124 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, sans-serif;
+}
+
+header{
+    width:100%;
+}
+
+#wrap {
+    width:75%;
+    margin: 0 auto;
+}
+
+header img {
+    width: 100%;
+}
+
+nav{
+    background-color: #0EC8C7;
+    padding: 2px;
+    text-align:center; 
+    font-size: 20px;
+}
+
+nav li {
+    display: inline; 
+    padding: 20px;
+    color: white;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    background-color: #0EC8C7;
+    text-align: center;   
+}
+
+footer li {
+    list-style-type: none;
+    display: inline;
+    text-decoration: none;
+}
+
+
+section{
+    margin: auto;
+    overflow: auto;
+    background-color: #EC3632;
+    
+}
+.buy{
+    width: auto;
+    float: right;
+}
+
+.flavors {
+    margin: 0;
+    float: left;
+    background-color: #EC3632;
+    width: 20%;
+}
+
+.flavors li {
+    list-style-type: none;
+    margin: 10px 0px;
+}
+
+.flavors li a{
+    text-decoration: none;
+    color: white;
+}
+
+article {
+    width:75%;
+    float:right;
+    background-color: white;
+    padding: 20px;
+}
+
+h1{
+    font-size: 36px;
+}
+
+@media screen and (min-width: 850px) and (max-width: 1110px){
+    #wrap{
+        width: 95%;
+        }
+    #nav a{  
+        padding: 0.5em 5px;
+    }  
+
+}
+
+@media screen and (max-width: 849px){
+    #wrap{
+        width: 100%;
+        }
+    .buy {
+        float:none;
+        width: 95%;
+        text-align: center;
+    }
+    nav li{
+        display: block;
+        margin:0px;  
+    }
+    section {
+        background-color: white;
+    }
+    .flavors, article {
+    width: 100%;
+    float: none;
+    margin: 1%;
+    }
+    .flavors{
+        text-align: center;
+    }
+}
+
