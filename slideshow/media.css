@@ -1,0 +1,117 @@
+html,
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+}
+
+#topnav {
+    width: 80%;
+    margin: 0;
+}
+
+header img {
+    width: 100%
+}
+
+nav {
+    background-color: #0EC8C7;
+    font-size: 30px;
+    padding 4px;
+    text-align: center;
+}
+
+
+nav li {
+    color: white;
+    padding: 30px;
+    display: inline;
+    font-size: 20px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: red;
+    text-align: center;
+}
+
+.topnav li {
+    display: inline;
+
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: maroon;
+    color: white;
+}
+
+section {
+    background-color: #EC3632;
+    overflow: auto;
+}
+
+#main {
+    width: 76%;
+    float: right;
+    background-color: #0EC8C7;
+    padding: 2%;
+}
+
+
+.main li {
+    margin: 15px 0px;
+}
+
+#contain {
+    width: 70%;
+    float: left;
+}
+
+section {
+    background-color: lightgreen;
+    overflow: auto;
+
+
+
+
+    /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+    @media screen and (min-width: 600px) and (max-width: 1110px) .topnav a {
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .topnav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    #good #contain {
+        float: none;
+        width: 100%;
+    }
+
+    footer {
+        background-color: #0EC8C7;
+        text-align: center;
+    }
+
+
+    footer li {
+        display: inline;
+    }
+
+}
