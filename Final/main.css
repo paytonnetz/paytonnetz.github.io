@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+html{
+    background: url(main.css)}
+h1 {font-family:'Amatic SC', cursive;
+padding: none;
+    color: black; font-size: 80px; text-align: center}
+h2 {font-family: monospace;
+color: black;
+padding: inherit;
+text-align: center;}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+}
+
+section{
+   
+    margin: 20px;
+    padding: inherit;
+    color: black;
+    display: inline-block;
+}
+nav {background-color:black;
+    padding: 20px; 
+    text-align: center;}
+
+nav li {
+    display: inline; 
+}
+
+nav ul {margin: 0; padding: 0;}
+
+nav a {color: white; 
+    font-family:monospace; 
+    font-size: 20px;
+    padding: 5px;
+    margin-right: 10px; 
+    text-decoration: none;
+    
+}
